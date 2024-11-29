@@ -5,7 +5,8 @@
     "start": "node dist/index.js",
     "dev": "tsx watch src/index.ts",
     "clean": "rimraf dist",
-    "reset": "node dist/index.js --reset"
+    "reset": "node dist/index.js --reset",
+    "scan-links": "tsx src/scripts/scanAllLinks.ts"
   },
   "dependencies": {
     "@azure/identity": "^4.5.0",
